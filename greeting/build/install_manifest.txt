@@ -1,0 +1,7 @@
+D:/CMakeExampleProjects/greeting/build/..\install\/include/greeting/saygoodbye.hpp
+D:/CMakeExampleProjects/greeting/build/..\install\/include/greeting/sayhello.hpp
+D:/CMakeExampleProjects/greeting/build/..\install\/include/greeting/tellage.hpp
+D:/CMakeExampleProjects/greeting/build/..\install\/lib/hello_lib.lib
+D:/CMakeExampleProjects/greeting/build/..\install\/lib/age_lib.lib
+D:/CMakeExampleProjects/greeting/build/..\install\/cmake/GreetingConfig.cmake
+D:/CMakeExampleProjects/greeting/build/..\install\/cmake/GreetingConfig-debug.cmake

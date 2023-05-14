@@ -1,0 +1,5 @@
+D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/greeting.dir
+D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/main.dir
+D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/INSTALL.dir
+D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/ALL_BUILD.dir
+D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/ZERO_CHECK.dir

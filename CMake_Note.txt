@@ -1,0 +1,35 @@
+ 	--------- Terminal ------------
+
+Create a build folder for our projects
+
+To link CMakeLists.txt to our build folder (need to rebuild everytime we add or delete files)
+$ cmake -S <path to CMakeLists.txt> -B <path to build folder>
+or
+$ cmake <path to CMakeLists.txt> 
+
+To build project (need to rebuild everytime our source code changes)
+$ cmake --build <path to build folder> [--config <release> or <debug>]
+
+To install project 
+$ cmake --install <path to build folder> --config <release or bebug> --prefix <path to install folder>
+
+If already in /build directory
+To build
+$ cmake --build .
+To build and install
+$ cmake --build . --target install
+--------- CMakeLists.txt ------------
+
+cmake_minimum_required
+add_executable
+add_library
+add_subdirectory
+target_include_directories
+target_link_directories
+target_link_libraries 
+
+target_include_directories(library_target
+                           PUBLIC 
+                           $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>  
+                           $<INSTALL_INTERFACE:include> #prefix/include 
+                           )

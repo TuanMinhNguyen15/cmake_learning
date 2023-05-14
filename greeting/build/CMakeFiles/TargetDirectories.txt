@@ -1,0 +1,6 @@
+D:/CMakeExampleProjects/greeting/build/CMakeFiles/hello_lib.dir
+D:/CMakeExampleProjects/greeting/build/CMakeFiles/age_lib.dir
+D:/CMakeExampleProjects/greeting/build/CMakeFiles/main.dir
+D:/CMakeExampleProjects/greeting/build/CMakeFiles/INSTALL.dir
+D:/CMakeExampleProjects/greeting/build/CMakeFiles/ALL_BUILD.dir
+D:/CMakeExampleProjects/greeting/build/CMakeFiles/ZERO_CHECK.dir
