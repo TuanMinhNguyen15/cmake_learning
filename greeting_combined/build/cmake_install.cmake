@@ -1,4 +1,4 @@
-# Install script for directory: D:/CMakeExampleProjects/greeting_combined
+# Install script for directory: D:/cmake_learning/greeting_combined
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "D:/CMakeExampleProjects/greeting_combined/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "D:/cmake_learning/greeting_combined/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/CMakeExampleProjects/greeting_combined/build/Debug/greeting.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/cmake_learning/greeting_combined/build/Debug/greeting.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/CMakeExampleProjects/greeting_combined/build/Release/greeting.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/cmake_learning/greeting_combined/build/Release/greeting.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/CMakeExampleProjects/greeting_combined/build/MinSizeRel/greeting.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/cmake_learning/greeting_combined/build/MinSizeRel/greeting.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/CMakeExampleProjects/greeting_combined/build/RelWithDebInfo/greeting.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/cmake_learning/greeting_combined/build/RelWithDebInfo/greeting.lib")
   endif()
 endif()
 
@@ -52,7 +52,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/GreetingCombinedConfig.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/GreetingCombinedConfig.cmake"
-         "D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig.cmake")
+         "D:/cmake_learning/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/GreetingCombinedConfig-*.cmake")
       if(_cmake_old_config_files)
@@ -65,18 +65,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/cmake_learning/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/cmake_learning/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/cmake_learning/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-minsizerel.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/cmake_learning/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-relwithdebinfo.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/CMakeExampleProjects/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "D:/cmake_learning/greeting_combined/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GreetingCombinedConfig-release.cmake")
   endif()
 endif()
 
@@ -88,5 +88,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/CMakeExampleProjects/greeting_combined/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/cmake_learning/greeting_combined/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

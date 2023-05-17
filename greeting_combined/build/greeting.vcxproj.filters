@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\CMakeExampleProjects\greeting_combined\src\sayhello.cpp">
+    <ClCompile Include="D:\cmake_learning\greeting_combined\src\sayhello.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\CMakeExampleProjects\greeting_combined\src\tellage.cpp">
+    <ClCompile Include="D:\cmake_learning\greeting_combined\src\tellage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\CMakeExampleProjects\greeting_combined\CMakeLists.txt" />
+    <CustomBuild Include="D:\cmake_learning\greeting_combined\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{10D36427-EED5-3B2A-B4F9-788B0FD34C7A}</UniqueIdentifier>
+      <UniqueIdentifier>{3D168C48-EC40-3147-A010-B72B460C2C7D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

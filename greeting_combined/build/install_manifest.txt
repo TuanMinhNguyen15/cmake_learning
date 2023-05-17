@@ -1,6 +1,0 @@
-D:/CMakeExampleProjects/greeting_combined/build/..\install\/include/greeting/saygoodbye.hpp
-D:/CMakeExampleProjects/greeting_combined/build/..\install\/include/greeting/sayhello.hpp
-D:/CMakeExampleProjects/greeting_combined/build/..\install\/include/greeting/tellage.hpp
-D:/CMakeExampleProjects/greeting_combined/build/..\install\/lib/greeting.lib
-D:/CMakeExampleProjects/greeting_combined/build/..\install\/cmake/GreetingCombinedConfig.cmake
-D:/CMakeExampleProjects/greeting_combined/build/..\install\/cmake/GreetingCombinedConfig-debug.cmake

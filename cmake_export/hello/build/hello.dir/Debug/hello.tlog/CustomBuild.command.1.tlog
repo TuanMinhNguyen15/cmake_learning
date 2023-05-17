@@ -1,0 +1,10 @@
+^D:\CMAKE_LEARNING\CMAKE_EXPORT\HELLO\CMAKELISTS.TXT
+setlocal
+E:\CMake\bin\cmake.exe -SD:/cmake_learning/cmake_export/hello -BD:/cmake_learning/cmake_export/hello/build --check-stamp-file D:/cmake_learning/cmake_export/hello/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

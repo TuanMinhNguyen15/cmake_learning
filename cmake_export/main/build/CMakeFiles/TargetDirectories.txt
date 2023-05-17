@@ -1,0 +1,3 @@
+D:/cmake_learning/cmake_export/main/build/CMakeFiles/main.dir
+D:/cmake_learning/cmake_export/main/build/CMakeFiles/ALL_BUILD.dir
+D:/cmake_learning/cmake_export/main/build/CMakeFiles/ZERO_CHECK.dir

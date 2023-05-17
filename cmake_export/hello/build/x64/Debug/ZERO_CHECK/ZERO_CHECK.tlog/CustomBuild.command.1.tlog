@@ -1,0 +1,10 @@
+^D:\CMAKE_LEARNING\CMAKE_EXPORT\HELLO\BUILD\CMAKEFILES\B46B657DDD09968D2AA3FB46D942B7BC\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SD:/cmake_learning/cmake_export/hello -BD:/cmake_learning/cmake_export/hello/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/cmake_learning/cmake_export/hello/build/hello.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
